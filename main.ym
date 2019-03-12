@@ -3,8 +3,8 @@
   tasks:
   - name: copying the data
     copy:
-       src: source/data.txt
-       dest: source1/data.txt
+       src: source/data
+       dest: source1/data
        owner: root
        group: root
        mode: 0644
