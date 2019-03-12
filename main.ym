@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+  - name: copying the data
+    copy:
+       src: source/data.txt
+       dest: source1/data.txt
+       owner: root
+       group: root
+       mode: 0644
